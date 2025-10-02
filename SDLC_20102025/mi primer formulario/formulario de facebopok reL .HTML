@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla Principal Facebook</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <main class="container d-flex flex-column ">
+        <h1 class="text-warnig mb-4 fw-bold display-4">Formulario</h1>
+        <form>
+            <div class="row mb-2">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+            </div>
+            <label class="form-label mb-1">Fecha de nacimiento</label>
+            <div class="row mb-3">
+                <div class="col">
+                    <select class="form-select">
+                        <option selected>30</option>
+                        <option selected>28</option>
+                        <option selected>25</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <select class="form-select">
+                        <option selected>sep</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <select class="form-select">
+                        <option selected>2025</option>
+                    </select>
+                </div>
+            </div>
+            <label class="form-label mb-1">que eres</label>
+            <div class="row mb-3">
+                <div class="col">
+                    <input type="radio" name="genero" id="mujer"> Muger
+                </div>
+                <div class="col">
+                    <input type="radio" name="genero" id="hombre"> Hombre
+                </div>
+                <div class="col">
+                    <input type="radio" name="genero" id="personalizado"> otra cosa
+                </div>
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Número de celular o correo electrónico">
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" placeholder="Contraseña nueva">
+            </div>
+            <p class="text-muted">
+                Es posible que te robe la identidad y la usemos para trata de blancas gracias por su comprencion 
+            </p>
+            <div class="d-prymary mb-3">
+                <button type="submit" class="btn btn-success">Registrarte</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
